@@ -3,9 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="185f1635-bb7b-4e59-9f2f-19511c551cb8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +17,11 @@
   </component>
   <component name="ProjectId" id="1W2ionZdpUOinqaIt96lfA5ZPQG" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -23,16 +29,17 @@
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
+  <component name="ServiceViewManager">
+    <option name="viewStates">
       <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
       </list>
     </option>
   </component>
@@ -47,7 +54,11 @@
       <option name="presentableId" value="Default" />
       <updated>1578354268213</updated>
       <workItem from="1578354273766" duration="204000" />
-      <workItem from="1578354498325" duration="5639000" />
+      <workItem from="1578354498325" duration="5767000" />
+      <workItem from="1578963325747" duration="227000" />
+      <workItem from="1578963599364" duration="54000" />
+      <workItem from="1578963705775" duration="114000" />
+      <workItem from="1578963836476" duration="3867000" />
     </task>
     <servers />
   </component>
@@ -59,10 +70,26 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="90" y="99" width="1166" height="568" key="DiffContextDialog" timestamp="1578969702560">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="90" y="99" width="1166" height="568" key="DiffContextDialog/0.0.1366.768/1366.0.1366.768@0.0.1366.768" timestamp="1578969702560" />
+    <state x="466" y="127" width="424" height="506" key="FileChooserDialogImpl" timestamp="1578963924681">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="466" y="127" width="424" height="506" key="FileChooserDialogImpl/0.0.1366.768/1366.0.1366.768@0.0.1366.768" timestamp="1578963924681" />
+    <state x="187" y="18" key="SettingsEditor" timestamp="1578963956179">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="187" y="18" key="SettingsEditor/0.0.1366.768/1366.0.1366.768@0.0.1366.768" timestamp="1578963956179" />
   </component>
 </project>
