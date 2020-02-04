@@ -2,9 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import renderer from 'react-test-renderer';
 import App from './components/App';
+import Enzyme, {shallow} from 'enzyme';
+import Adapter from 'enzyme-adapter-react-16';
 import {FormSearch} from './components/Forms';
 import {TableList} from './components/Tables';
 import {ButtonSubmit} from './components/Buttons';
+
+Enzyme.configure({adapter: new Adapter()});
 
 describe('App', () => {
   it('should renders without crashing', function () {
@@ -55,6 +59,11 @@ describe('TableList', () => {
       { title: '2', author: '2', num_comments: 1, points: 2, objectID: 'z' },
     ],
   };
+
+  it('shows two items in list', () => {
+    const element = shallow(<TableList {...props}/>);
+    expect(element.find('.table-row').length).toBe(2);
+  });
 
   it('should renders without crashing', () => {
     const div = document.createElement('div');
