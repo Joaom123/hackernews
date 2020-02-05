@@ -3,8 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="185f1635-bb7b-4e59-9f2f-19511c551cb8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/__snapshots__/App.test.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/src/__snapshots__/App.test.js.snap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/App/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Forms/FormSearch.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Forms/FormSearch.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +82,10 @@
       <workItem from="1580258569853" duration="2089000" />
       <workItem from="1580345060585" duration="6705000" />
       <workItem from="1580431627584" duration="5921000" />
-      <workItem from="1580489077139" duration="5457000" />
+      <workItem from="1580489077139" duration="5653000" />
+      <workItem from="1580594664331" duration="6348000" />
+      <workItem from="1580775699273" duration="3724000" />
+      <workItem from="1580860958980" duration="2911000" />
     </task>
     <task id="LOCAL-00001" summary="Adicionando botão 'dismiss'">
       <created>1578970633313</created>
@@ -120,6 +124,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="278" y="44" width="800" height="672" key="#JavaScript/0.0.1366.768/1366.0.1366.768@0.0.1366.768" timestamp="1579566786179" />
+    <state x="491" y="111" width="374" height="557" key="#com.intellij.ide.util.MemberChooser" timestamp="1580861629220">
+      <screen x="0" y="9" width="1366" height="768" />
+    </state>
+    <state x="491" y="111" width="374" height="557" key="#com.intellij.ide.util.MemberChooser/0.9.1366.768/1366.0.1366.768@0.9.1366.768" timestamp="1580861629220" />
     <state x="416" y="133" width="524" height="495" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1580494559637">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
