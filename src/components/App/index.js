@@ -12,7 +12,7 @@ import {
     PATH_SEARCH,
     PARAM_SEARCH,
     PARAM_PAGE,
-    PARAM_HPP,
+    PARAM_HPP
 } from '../../constants';
 
 const Loading = () => (<div>Loading...</div>);
@@ -34,6 +34,8 @@ class App extends Component {
             searchTerm: DEFAULT_QUERY,
             error: null,
             isLoading: false,
+            sortKey: 'NONE',
+            isSortReverse: false
         };
 
         this.onDismiss = this.onDismiss.bind(this);
@@ -42,7 +44,7 @@ class App extends Component {
         this.setSearchTopStories = this.setSearchTopStories.bind(this);
         this.fetchSearchTopStories = this.fetchSearchTopStories.bind(this);
         this.needsToSearchTopStories = this.needsToSearchTopStories.bind(this);
-
+        this.onSort = this.onSort.bind(this);
     }
 
     onDismiss(id) {
@@ -58,6 +60,11 @@ class App extends Component {
                 [searchKey]:{ hits: updatedHits, page }
             }
         });
+    }
+
+    onSort(sortKey){
+        const isSortReverse = this.state.sortKey === sortKey && !this.state.isSortReverse;
+        this.setState({sortKey, isSortReverse});
     }
 
     onSearchSubmit(event) {
@@ -104,7 +111,7 @@ class App extends Component {
     }
 
     render() {
-        const { searchTerm, results, searchKey, error, isLoading } = this.state;
+        const { searchTerm, results, searchKey, error, isLoading, sortKey, isSortReverse } = this.state;
 
         const page = ( results && results[searchKey] && results[searchKey].page ) || 0;
 
@@ -120,7 +127,8 @@ class App extends Component {
                 {
                     error
                         ? <div className='interactions'><p>Something went wrong!</p></div>
-                        :<Table list={list} onDismiss={this.onDismiss}/>
+                        :<Table list={list} onDismiss={this.onDismiss} isSortReverse={isSortReverse}
+                                sortKey={sortKey} onSort={this.onSort}/>
                 }
                 <div className='interactions'>
                     {
