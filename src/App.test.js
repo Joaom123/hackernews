@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import renderer from 'react-test-renderer';
-import App from './components/App';
+import App, {updateSearchTopStoriesState} from './components/App';
 import Enzyme, {shallow} from 'enzyme';
 import Adapter from 'enzyme-adapter-react-16';
 import {FormSearch} from './components/Forms';
@@ -76,5 +76,32 @@ describe('TableList', () => {
     const component = renderer.create(<TableList { ...props } />);
     const tree = component.toJSON();
     expect(tree).toMatchSnapshot();
+  });
+});
+
+describe('updateSearchTopStoriesState', () => {
+  const prevState = {
+    result: {
+      [test]: {
+        hits: [1],
+        page: 1
+      }
+    },
+    isLoading: true,
+    searchKey: 'test',
+  };
+
+  const expectedStateChange = {
+    result: {
+      [test]: {
+        hits: [1, 2],
+        page: 2
+      }
+    },
+    isLoading: false,
+  };
+
+  it('update top stories', () => {
+    expect(updateSearchTopStoriesState(2,3)(prevState)).toEqual(expectedStateChange);
   });
 });

@@ -3,13 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="185f1635-bb7b-4e59-9f2f-19511c551cb8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/__snapshots__/App.test.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/src/__snapshots__/App.test.js.snap" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/App/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Tables/TableList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Tables/TableList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constants/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,6 +87,7 @@
       <workItem from="1580594664331" duration="6348000" />
       <workItem from="1580775699273" duration="3724000" />
       <workItem from="1580860958980" duration="8113000" />
+      <workItem from="1580946699540" duration="7234000" />
     </task>
     <task id="LOCAL-00001" summary="Adicionando botão 'dismiss'">
       <created>1578970633313</created>
@@ -156,5 +154,9 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="278" y="119" width="800" height="523" key="Vcs.Push.Dialog.v2/0.0.1366.768/1366.0.1366.768@0.0.1366.768" timestamp="1578970641198" />
+    <state x="480" y="312" width="395" height="155" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1580946970219">
+      <screen x="0" y="9" width="1366" height="768" />
+    </state>
+    <state x="480" y="312" width="395" height="155" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.9.1366.768/1366.0.1366.768@0.9.1366.768" timestamp="1580946970219" />
   </component>
 </project>
