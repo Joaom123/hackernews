@@ -81,10 +81,10 @@ describe('TableList', () => {
 
 describe('updateSearchTopStoriesState', () => {
   const prevState = {
-    result: {
-      [test]: {
-        hits: [1],
-        page: 1
+    results: {
+      test: {
+        hits: [{title: 'a'}, {title: 'b'}],
+        page: 0
       }
     },
     isLoading: true,
@@ -92,16 +92,17 @@ describe('updateSearchTopStoriesState', () => {
   };
 
   const expectedStateChange = {
-    result: {
-      [test]: {
-        hits: [1, 2],
-        page: 2
+    results: {
+      test: {
+        hits: [{title: 'a'}, {title: 'b'}, {title: 'a'}, {title: 'b'}],
+        page: 1
       }
     },
     isLoading: false,
   };
 
   it('update top stories', () => {
-    expect(updateSearchTopStoriesState(2,3)(prevState)).toEqual(expectedStateChange);
+    expect(updateSearchTopStoriesState([{title: 'a'}, {title: 'b'}], 1)(prevState)).toEqual(expectedStateChange);
   });
+
 });

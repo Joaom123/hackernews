@@ -25,6 +25,7 @@ const withLoading = (Component) => ({isLoading, ...rest}) =>
 const ButtonWithLoading = withLoading(Button);
 
 export const updateSearchTopStoriesState = (hits, page) => (prevState) => {
+    console.log(prevState);
     const { searchKey, results } = prevState;
 
     const oldHits = results && results[searchKey]
